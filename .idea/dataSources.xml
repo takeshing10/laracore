@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="twittin@localhost" uuid="87f04850-e9d6-4a3e-8405-bd3fca3eb6dc">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/twittin</jdbc-url>
+      <vm-options>-Duser.timezone=UTC+9</vm-options>
+    </data-source>
+  </component>
+</project>
