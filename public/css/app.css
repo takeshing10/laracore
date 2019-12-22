@@ -18184,10 +18184,10 @@ base-chart.chart {
 .app-header.navbar .navbar-brand {
   border-bottom: 1px solid #a4b7c1;
   background-color: #fff;
-  background-image: url(/images/logo.png?a961dfbf36f110092c3f2d35778fa3db);
+  background-image: url(/images/logo.svg?49fdd77cd869cd31f697bf198c76ace4);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 70px auto;
+  background-size: 90px auto;
   display: inline-block;
   height: 55px;
   margin-right: 0;

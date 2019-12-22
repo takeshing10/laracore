@@ -16,7 +16,7 @@ Route::get('/mypage/{vue_capture?}', 'AppController@index')
     ->where('vue_capture', '[\/\w\.\,\-]*');
 
 Route::get('/', function () {
-	return view('auth/login');
+	return \File::get(public_path() . '/index.html');
 });
 
 Auth::routes();

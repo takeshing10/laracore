@@ -5,7 +5,10 @@ import Router from 'vue-router'
 import Full from '@/containers/Full'
 
 // Views
-import Dashboard from '@/views/sample/Dashboard'
+import Dashboard from '@/views/pages/Dashboard'
+import Forms from '@/views/functions/Forms'
+import Tables from '@/views/functions/Tables'
+
 
 // Views - Pages
 import Page404 from '@/views/pages/Page404'
@@ -25,16 +28,25 @@ export default new Router({
   routes         : [
     {
       path     : '/mypage/',
-      redirect : '/mypage/dashboard',
+      redirect : '/mypage/',
       name     : 'Home',
       component: Full,
       children : [
         {
-          path     : 'dashboard',
-          name     : 'Dashboard',
+          path     : '/',
+          name     : '',
           component: Dashboard,
         },
-        ...sample,
+        {
+          path     : 'resist',
+          name     : 'Resist',
+          component: Forms,
+        },
+        {
+          path     : 'list',
+          name     : 'List',
+          component: Tables ,
+        },
       ],
     },
     {
