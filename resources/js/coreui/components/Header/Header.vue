@@ -9,7 +9,7 @@
     </button>
     <b-link
       class="navbar-brand"
-      to="#"
+      to="/mypage/"
     />
     <button
       class="navbar-toggler sidebar-toggler d-md-down-none"

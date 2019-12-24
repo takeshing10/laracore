@@ -1,11 +1,6 @@
 export default {
   items: [
     {
-      name : 'Dashboard',
-      url  : '/mypage/',
-      icon : 'icon-speedometer',
-    },
-    {
       title  : true,
       name   : 'Menu',
       class  : '',
@@ -15,12 +10,7 @@ export default {
       },
     },
     {
-      name: 'イベント登録',
-      url : '/mypage/resist',
-      icon: 'icon-pencil',
-    },
-    {
-      name: 'イベント一覧',
+      name: 'Event List',
       url : '/mypage/list',
       icon: 'icon-list',
     },

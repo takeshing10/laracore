@@ -11,7 +11,6 @@
         class="custom-notifications"
       />
       <main class="main">
-        <breadcrumb :list="list" />
         <div class="container-fluid">
           <router-view />
         </div>
@@ -23,7 +22,7 @@
 
 <script>
 import nav from '../_nav'
-import { Header as AppHeader, Sidebar, Footer as AppFooter, Breadcrumb } from '../components'
+import { Header as AppHeader, Sidebar, Footer as AppFooter } from '../components'
 
 export default {
   name      : 'Full',
@@ -31,7 +30,6 @@ export default {
     AppHeader,
     Sidebar,
     AppFooter,
-    Breadcrumb,
   },
   data () {
     return {
