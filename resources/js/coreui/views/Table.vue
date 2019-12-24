@@ -25,7 +25,7 @@
                 <b-button pill variant="success" @click="loadEvnets" :disabled="checkDisabled(data.item.start_at)" ><i class="fa fa-chevron-circle-right"></i> OPEN </b-button>
             </template>
             <template slot="__" slot-scope="data">
-                <i class="fa fa-trash-o fa-lg mt-2"></i>
+                <i class="icon-options-vertical icons font-lg d-block mt-2"></i>
             </template>
         </b-table>
         <nav>

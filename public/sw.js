@@ -18,14 +18,14 @@ var __wpo = {
     "/favicon.png"
   ],
   "hashesMap": {
-    "6efb403a941de5d7c3ea31bd7ff9268984f700c8": "/js/app.js",
+    "08eab090508eba8d77caf81f85ff1a06b1dd98ff": "/js/app.js",
     "9432ad7e2c33b0904817f16f9a4bcef363a592ed": "/js/manifest.js",
     "086467c793fd964a808c2e0df8b3328f7b28f206": "/js/vendor.js",
     "11e3b97275a6c09e415cae5dff7bcd124fa454f0": "/css/app.css"
   },
   "strategy": "changed",
   "responseStrategy": "network-first",
-  "version": "12/24/2019, 3:17:25 AM",
+  "version": "12/24/2019, 11:04:08 PM",
   "name": "webpack-offline",
   "pluginVersion": "5.0.7",
   "relativePaths": false
